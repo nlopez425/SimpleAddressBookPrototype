@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Address Book Prototype</title>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="AddressBook.js"></script>
+	<script type="text/javascript" src="Person.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	
+	<style type="text/css" media="screen">
+	
+		ul li {margin-bottom:20px;}
+			
+	</style>
+	
+</head>
+<body>
+	First Name: <input type="text" id="fname">
+	<br/>
+	<br/>
+	Last Name: <input type="text" id="lname">
+	<br/>
+	<br/>
+	Email: <input type="email" id="email">
+	<br/>
+	<br/>
+	Phone Number: <input type="tel" id="phone-number">
+	<br/>
+	<br/>
+	<button id="addContact_btn">Add Contact</button>
+	
+	<div id="search-wrapper">
+		<h2>Search For Contact</h2>
+		First Name: <input type="text" name="search" value="" id="search-fname">
+		<br/><br/>
+		Last Name: <input type="text" name="search-lname" value="" id="search-lname">
+		<button id="search_btn">Search</button>
+	</div>
+	
+	<div id="search-results">
+		
+	</div>
+</body>
+</html>
